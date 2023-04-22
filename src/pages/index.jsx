@@ -599,7 +599,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="w-full flex justify-center items-center p-8 bg-black text-white flex-wrap">
+                {/* <div className="w-full flex justify-center items-center p-8 bg-black text-white flex-wrap">
                   <a
                     href="https://github.com/abraham-j-p-f"
                     className="flex justify-center"
@@ -610,7 +610,7 @@ export default function Home() {
                     </h1>
                     <Image className="h-8 w-auto mx-2" src={Github} />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
