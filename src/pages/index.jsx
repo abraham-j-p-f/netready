@@ -28,6 +28,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 
+import Link from "next/link";
+
 import Head from "next/head";
 
 const Prueba = () => {
@@ -599,18 +601,18 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="w-full flex justify-center items-center p-8 bg-black text-white flex-wrap">
-                  <a
+                <div className="w-full flex justify-center items-center py-4 bg-black text-white flex-wrap">
+                  <Link
                     href="https://github.com/abraham-j-p-f"
                     className="flex justify-center"
                     target="_blank"
                   >
                     <h1 className="text-[25px] mx-2 font-coolvetica">
-                      Hi, I'm Abe, GitHub here!
+                      {"Hi, I'm Abe, GitHub here!"}
                     </h1>
                     <Image className="h-8 w-auto mx-2" src={Github} />
-                  </a>
-                </div> */}
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
