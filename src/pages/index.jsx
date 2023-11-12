@@ -50,11 +50,11 @@ const Prueba = () => {
         modules={[Pagination, Autoplay]}
         className="mySwiper w-full h-full"
       >
-        <SwiperSlide className="bg-[url('/images/hero.jpg')] bg-cover bg-center sm:rounded-[32px] shadow-inner"></SwiperSlide>
-        <SwiperSlide className="bg-[url('/images/servers.jpg')] bg-cover bg-center sm:rounded-[32px] shadow-inner"></SwiperSlide>
-        <SwiperSlide className="bg-[url('/images/desk.jpg')] bg-cover bg-center sm:rounded-[32px] shadow-inner"></SwiperSlide>
-        <SwiperSlide className="bg-[url('/images/wires.jpg')] bg-cover bg-center sm:rounded-[32px] shadow-inner"></SwiperSlide>
-        <SwiperSlide className="bg-[url('/images/lock.jpg')] bg-cover bg-center sm:rounded-[32px] shadow-inner"></SwiperSlide>
+        <SwiperSlide className="bg-[url('/images/small/hero.png')] bg-cover bg-center sm:rounded-[32px] shadow-inner"></SwiperSlide>
+        <SwiperSlide className="bg-[url('/images/small/servers.png')] bg-cover bg-center sm:rounded-[32px] shadow-inner"></SwiperSlide>
+        <SwiperSlide className="bg-[url('/images/small/desk.png')] bg-cover bg-center sm:rounded-[32px] shadow-inner"></SwiperSlide>
+        <SwiperSlide className="bg-[url('/images/small/wires.png')] bg-cover bg-center sm:rounded-[32px] shadow-inner"></SwiperSlide>
+        <SwiperSlide className="bg-[url('/images/small/lock.png')] bg-cover bg-center sm:rounded-[32px] shadow-inner"></SwiperSlide>
       </Swiper>
     </>
   );
@@ -371,7 +371,7 @@ export default function Home() {
                 </div>
                 <div className="w-full xl:py-[64px] py-[32px] flex justify-center bg-white">
                   <div className="container flex xl:flex-row flex-col-reverse px-4 sm:px-8 xl:space-x-16 space-x-0 justify-between">
-                    <div className="flex flex-1 bg-[url('/images/laptop.jpg')] bg-cover bg-center rounded-[2rem] md:shadow-[-32px_-32px_0px_0px_rgba(255,86,0,1)] shadow-[-16px_-16px_0px_0px_rgba(255,86,0,1)] p-4 xl:mt-0 mt-16 min-h-[290px]"></div>
+                    <div className="flex flex-1 bg-[url('/images/small/laptop.png')] bg-cover bg-center rounded-[2rem] md:shadow-[-32px_-32px_0px_0px_rgba(255,86,0,1)] shadow-[-16px_-16px_0px_0px_rgba(255,86,0,1)] p-4 xl:mt-0 mt-16 min-h-[290px]"></div>
                     <div className="flex flex-col flex-none xl:w-[800px] w-full space-y-8 ">
                       <div>
                         <h1 className="xl:text-left text-center sm:text-[48.83px] text-[39.06px] font-coolvetica text-transparent bg-clip-text bg-gradient-to-b from-[#F4A618] to-[#FF5600]">
@@ -426,7 +426,7 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className="flex flex-1 min-h-[400px] xl:w-auto w-full rounded-[2rem] p-4 my-16 xl:my-0 bg-[url('/images/team.jpg')] bg-cover bg-center md:shadow-[32px_-32px_0px_0px_rgba(255,86,0,1)] shadow-[16px_-16px_0px_0px_rgba(255,86,0,1)]"></div>
+                    <div className="flex flex-1 min-h-[400px] xl:w-auto w-full rounded-[2rem] p-4 my-16 xl:my-0 bg-[url('/images/small/team.png')] bg-cover bg-center md:shadow-[32px_-32px_0px_0px_rgba(255,86,0,1)] shadow-[16px_-16px_0px_0px_rgba(255,86,0,1)]"></div>
                   </div>
                 </div>
                 <div className="w-full xl:py-[128px] py-[64px] flex justify-center bg-white">
@@ -478,7 +478,7 @@ export default function Home() {
                         </span>
                       </div>
                     </div>
-                    <div className="w-full flex-1 p-4 bg-[url('/images/hero.jpg')] bg-cover bg-center flex overflow-hidden min-h-[256px] rounded-[32px]  md:shadow-[-32px_32px_0px_0px_rgba(255,86,0,1)] shadow-[-16px_16px_0px_0px_rgba(255,86,0,1)]"></div>
+                    <div className="w-full flex-1 p-4 bg-[url('/images/small/hero.png')] bg-cover bg-center flex overflow-hidden min-h-[256px] rounded-[32px]  md:shadow-[-32px_32px_0px_0px_rgba(255,86,0,1)] shadow-[-16px_16px_0px_0px_rgba(255,86,0,1)]"></div>
                   </div>
                 </div>
                 <div className="w-full xl:py-[128px] py-[64px] flex justify-center bg-[#F2F2F2] rounded-t-[2rem] overflow-hidden relative">
